@@ -1,0 +1,16 @@
+/* Hero Section */
+.hero {
+  background: linear-gradient(45deg, #FFCBCB, #EEDFDA);
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  max-height: 500px; /* Boleh disesuaikan atau dihapus */
+  object-fit: cover; /* Membuat gambar tetap rapi meskipun ukurannya diubah */
+  border-radius: 10px;
+}
